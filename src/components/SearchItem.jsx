@@ -13,7 +13,7 @@ const SearchBar = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        `https://5075-103-180-81-98.ngrok-free.app/searchApi/search/?q=${query}`,
+        `https://foodie-git-main-vikas8236s-projects.vercel.app/searchApi/search/?q=${query}`,
         { headers }
       )
       setResults(response.data)

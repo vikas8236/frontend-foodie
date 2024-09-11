@@ -34,7 +34,7 @@ const Cart = () => {
   const handleCheckout = async () => {
     try {
       const response = await fetch(
-        "https://5075-103-180-81-98.ngrok-free.app/payment/Checkout/",
+        "https://foodie-git-main-vikas8236s-projects.vercel.app/payment/Checkout/",
         {
           method: "POST",
           headers: {

@@ -21,7 +21,7 @@ const Restaurants = () => {
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://5075-103-180-81-98.ngrok-free.app/restaurants/restaurants/`, {headers},
+        `https://foodie-git-main-vikas8236s-projects.vercel.app/restaurants/restaurants/`, {headers},
       );
       const data = response.data;
       // if (data.results.length === 0) {

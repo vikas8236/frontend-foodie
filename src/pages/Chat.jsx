@@ -59,7 +59,7 @@ const Chat = () => {
   const sendMessage = async () => {
     if (newMessage.trim() === '') return
     const response = await axios.post(
-      'https://5075-103-180-81-98.ngrok-free.app/chat/messages/',
+      'https://foodie-git-main-vikas8236s-projects.vercel.app/chat/messages/',
       { message: newMessage }
     )
     setMessages([...messages, response.data])

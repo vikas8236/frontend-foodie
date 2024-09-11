@@ -13,7 +13,7 @@ const RestaurantMenu = () => {
 
   useEffect(() => {
     fetch(
-      `https://5075-103-180-81-98.ngrok-free.app/restaurants/restaurants/${id}/menu_items/`,
+      `https://foodie-git-main-vikas8236s-projects.vercel.app/restaurants/restaurants/${id}/menu_items/`,
       { headers }
     )
       .then(response => {
