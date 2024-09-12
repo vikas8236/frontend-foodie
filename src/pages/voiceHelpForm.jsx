@@ -11,7 +11,7 @@ const VoiceHelpButton = () => {
     try {
       const data = { to: '+918236014408' }; 
       const response = await axios.post(
-        'https://foodie-git-main-vikas8236s-projects.vercel.app/voice/voice-help/',
+        'https://foodie-eight-ruby.vercel.app/voice/voice-help/',
         qs.stringify(data), // Convert data to x-www-form-urlencoded
         {
           headers: {

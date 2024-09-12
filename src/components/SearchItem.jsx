@@ -13,7 +13,7 @@ const SearchBar = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        `https://foodie-git-main-vikas8236s-projects.vercel.app/searchApi/search/?q=${query}`,
+        `https://foodie-eight-ruby.vercel.app/searchApi/search/?q=${query}`,
         { headers }
       )
       setResults(response.data)

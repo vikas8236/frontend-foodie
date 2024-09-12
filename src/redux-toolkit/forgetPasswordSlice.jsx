@@ -21,7 +21,7 @@ export const sendOTP = createAsyncThunk(
   async (email, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://foodie-git-main-vikas8236s-projects.vercel.app/user/password-reset/",
+        "https://foodie-eight-ruby.vercel.app/user/password-reset/",
         { email },
         {
           headers: {
@@ -43,7 +43,7 @@ export const resendOTP = createAsyncThunk(
   async (email, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://foodie-git-main-vikas8236s-projects.vercel.app/user/password-reset/",
+        "https://foodie-eight-ruby.vercel.app/user/password-reset/",
         { email },
         {
           headers: {
@@ -65,7 +65,7 @@ export const resetPassword = createAsyncThunk(
   async (values, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://foodie-git-main-vikas8236s-projects.vercel.app/user/password-reset-confirm/",
+        "https://foodie-eight-ruby.vercel.app/user/password-reset-confirm/",
         values,
         {
           headers: {

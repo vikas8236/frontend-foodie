@@ -34,7 +34,7 @@ const Cart = () => {
   const handleCheckout = async () => {
     try {
       const response = await fetch(
-        "https://foodie-git-main-vikas8236s-projects.vercel.app/payment/Checkout/",
+        "https://foodie-eight-ruby.vercel.app/payment/Checkout/",
         {
           method: "POST",
           headers: {

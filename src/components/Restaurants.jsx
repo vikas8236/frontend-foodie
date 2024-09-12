@@ -21,7 +21,7 @@ const Restaurants = () => {
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://foodie-git-main-vikas8236s-projects.vercel.app/restaurants/restaurants/`, {headers},
+        `https://foodie-eight-ruby.vercel.app/restaurants/restaurants/`, {headers},
       );
       const data = response.data;
       // if (data.results.length === 0) {
