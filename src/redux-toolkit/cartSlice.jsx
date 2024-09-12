@@ -93,7 +93,7 @@ export const clearCart = createAsyncThunk(
       }
 
       // Make DELETE request to clear cart
-      await axios.delete(`${backendUrl}/user/cart/delete_all/`, {
+      await axios.delete(`${backendUrl}/user/cart/clear/`, {
         headers: {
           Authorization: `Token ${token}`,
           "Content-Type": "application/json",
